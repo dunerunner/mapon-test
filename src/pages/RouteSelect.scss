@@ -1,0 +1,78 @@
+.route-select {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
+  padding-top: 32px;
+  text-align: center;
+
+  &-content {
+    width: 600px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  }
+
+  &-logo {
+    text-align: center;
+
+    .mapon-logo {
+      width: auto;
+      height: 56px;
+    }
+  }
+
+  &-body {
+    padding: 32px 24px;
+    background: #fff;
+  }
+
+  &-form {
+    margin-top: 24px;
+  }
+
+  &-footer {
+    display: flex;
+    height: 64px;
+    padding: 0 24px;
+    align-items: center;
+    justify-content: flex-end;
+    background: #f4f4f4;
+  }
+}
+
+.title {
+  margin: 0;
+  text-align: left;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+
+  select, & > div {
+    flex: 0 0 70%;
+  }
+}
+
+.date-row {
+  display: flex;
+  gap: 16px;
+
+  & > div {
+    flex: 1 1 auto;
+
+    input {
+      width: 100%;
+    }
+  }
+}
+
+.required {
+  color: #FF4141;
+}

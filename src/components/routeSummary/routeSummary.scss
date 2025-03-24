@@ -1,0 +1,34 @@
+.route-summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0;
+  background: #fff;
+
+  .summary-item {
+    padding: 0 16px;
+    border-right: 1px solid #ccc;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+
+  .value {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .label {
+    display: block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0;
+    text-align: center;
+
+  }
+}
